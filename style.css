@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    transition:all ease 0.5s;
+}
+
+:hover{
+    transition:all ease 0.5s;
+}
+
+a.nav-link{
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+section header{
+    height:auto;
+    min-height: 60vh;
+}
+
+section#hello header{
+    background:silver url('https://raw.githubusercontent.com/Verogatica/12clase_dno037/main/images/aves.jpeg') center center no-repeat;
+    background-size:cover;
+}
+
+section#work header{
+    background:silver url('https://raw.githubusercontent.com/Verogatica/12clase_dno037/main/images/fondo.jpeg') center center no-repeat;
+    background-size:cover;  
+}
+
+section#contact header{
+    background:silver url('https://raw.githubusercontent.com/Verogatica/12clase_dno037/main/images/abajo.jpeg') center center no-repeat;
+    background-size:cover;  
+}
+
+:target:before {
+    content:"";
+    display:block;
+    height:70px;
+    margin:-70px 0 0;
+}
